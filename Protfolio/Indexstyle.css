@@ -1,0 +1,31 @@
+@keyframes rainbow{
+  20% {
+    color: red;
+  }
+  40% {
+    color: yellow;
+  }
+  60% {
+    color: green;
+  }
+  80% {
+    color: blue;
+  }
+  100% {
+    color: orange;
+  }
+}
+
+p{
+    
+  text-align: center;
+  color: rgba(100, 50, 255, 0.8);
+    animation-name: rainbow;
+    animation-duration: 30s;
+    
+}
+
+p{
+    font-family: "Oswald"
+
+}
